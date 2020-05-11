@@ -39,7 +39,7 @@ export default {};
   color: #602F03;
   text-align: center;
   margin: 10px 0 32px 0;
-  font: 18px 900 sans-serif;
+  font-size: 18px;
 }
 
 .confirm-checkbox {
