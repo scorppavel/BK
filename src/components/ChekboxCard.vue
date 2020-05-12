@@ -7,7 +7,6 @@
       помидор
     </div>
     <div class="confirm-checkbox">
-      <img src="../assets/circle.svg">
     </div>
   </div>
 </template>
@@ -39,16 +38,19 @@ export default {};
   color: #602F03;
   text-align: center;
   margin: 10px 0 32px 0;
-  font-size: 18px;
 }
 
 .confirm-checkbox {
   display: flex;
 }
 
-.confirm-checkbox img {
+.confirm-checkbox {
   width: 50px;
   height: 50px;
   margin: auto;
+  box-shadow: 0px 5px 15px rgba(109, 171, 41, 0.25);
+  background: #6DAB29;
+  border-radius: 27.5px;
+  background-image: url(../assets/confirm.svg) no-repeat center; 
 }
 </style>
